@@ -148,3 +148,27 @@
   * Satırda boşluk bırakmak için kelimelerin arasına `&nbsp;` koyabiliriz.
   * 1 `ENTER` ile satırlar arasında boşluk bırakılır.
   * Satırlar arasında çoklu boşluk bırakmak için `<br>` konulabilir.
+  
+## Contact me
+
+Follow me on [![alt text][1.1]][1]
+[![alt text][2.1]][2]
+[![alt text][3.1]][3]
+[![alt text][4.1]][4]
+[![alt text][5.1]][5]
+
+
+[1.1]:https://mehmetcangulesci.com/wp-content/uploads/2017/03/Twitter.png (twitter icon with padding)
+[2.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Linkedin.png (linkedin icon with padding)
+[3.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Github.png (github icon with padding)
+[4.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Instagram.png (instagram icon with padding)
+[5.1]:https://mehmetcangulesci.com/wp-content/uploads/2017/03/micon.png
+
+
+<!-- links to your social media accounts -->
+
+[1]: https://twitter.com/mehmetgulesci
+[2]: https://www.linkedin.com/in/mehmetcan-g%C3%BCle%C5%9F%C3%A7i-39155458/
+[3]: https://github.com/mgulesci
+[4]: https://www.instagram.com/mgulesci/
+[5]: https://mehmetcangulesci.com
