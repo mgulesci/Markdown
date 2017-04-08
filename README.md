@@ -149,8 +149,9 @@
   * 1 `ENTER` ile satırlar arasında boşluk bırakılır.
   * Satırlar arasında çoklu boşluk bırakmak için `<br>` konulabilir.
   
+  ---
+  
 ## Contact me
-
 Follow me on [![alt text][1.1]][1]
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
