@@ -34,7 +34,7 @@
   ---
 
   ### Link
-  Input:
+  Input: 
   ```
   [Link](http://)
   ```
