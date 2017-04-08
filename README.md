@@ -40,15 +40,6 @@
   ```
   Output: &nbsp; [Link](http://)
 
-
-
-  *   item
-
-  1.  item
-
-  -   item
-
-  +   item
   ---
 
   ### Inline Code
