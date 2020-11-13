@@ -144,6 +144,6 @@ Output:
 `~~line~~`  &nbsp; &nbsp;  ~~line~~
 
 ## Additions
-* To leave space between words, use `&nbsp;`.
-* To jump new line, press `enter` key.
-* To leave more space between lines, use `<br>`.
+* To leave space between words, use `&nbsp;`
+* To jump new line, press `enter` key
+* To leave more space between lines, use `<br>`
