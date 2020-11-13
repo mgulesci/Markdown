@@ -46,7 +46,7 @@ Input:
 ```
 Output: &nbsp; `code`
 
-## BlockCode
+## Block Code
 Input:
 ```
 ```Java
