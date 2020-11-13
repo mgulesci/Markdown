@@ -1,4 +1,4 @@
-![markdowtn](assets/markdown2.png)
+![markdown](assets/markdown.png)
 
 # Markdown
 [![user][user_img]][user_url] ![markdown][markdown_img]
