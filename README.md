@@ -134,8 +134,7 @@ Output:
 [link_url]: https://mehmetcangulesci.com
 
 
-## Additions
-
+## Others
 `**bold1**`  &nbsp; &nbsp;  **bold1**  
 `__bold2__`  &nbsp; &nbsp;  **bold2**  
 `*italic1*`  &nbsp; &nbsp;  *italic1*  
@@ -144,7 +143,7 @@ Output:
 `___bolditalic2___`  &nbsp; &nbsp;  ___bolditalic2___  
 `~~line~~`  &nbsp; &nbsp;  ~~line~~
 
-## Others
+## Additions
 * To leave space between words, use `&nbsp;`.
 * To jump new line, press `enter` key.
 * To leave more space between lines, use `<br>`.
