@@ -1,175 +1,150 @@
-  # Markdown
+![markdowtn](assets/markdown.png)
 
-  Merhabalar bu yazımızda Markdown'dan biraz söz edeceğiz. Markdown, yazdığımız kodu otomatik olarak HTML' e çeviren bir yazılımdır. Normalde HTML kullanarak herhangi bir içerik yazdığımızda ve üzerinde hızlı düzenlemeler yapmamız gerektiğinde biraz zorlanırız. Bu durumda `Markdown` devreye girmektedir. Düzenlemeleri hızlı bir şekilde yapıp websiteleri için görsel açıdan düzenli ve etkili yazılar yazmamızı mümkün kılar. Şimdi Markdown'un bazı özelliklerine değineceğiz.
+# Markdown
+[![user][user_img]][user_url] ![markdown][markdown_img]
 
-  ### Heading
-  1 yıldızdan `#` 6 yıldıza `######`kadar İşaretlemek mümkündür. İşaret sayısı arttıkça font büyüklüğü azalmaktadır.
+[user_img]:https://img.shields.io/badge/made%20by-mehmetcangulesci-1a1e21.svg
 
-  Input:
-  ```
-  # Heading
-  ## Heading
-  ### Heading
-  #### Heading
-  ```
+[user_url]:https://github.com/mehmetcangulesci
 
-  Output:  
-  ># Heading
-  >## Heading
-  >### Heading
-  >#### Heading
+[markdown_img]:https://img.shields.io/badge/made%20with-Markdown-8b54ea.svg
 
+In this tutorial, I will try to cover `Markdown` usage instructions.
 
+## Heading
+As the number of marks increases, the font size decreases. Max value of `#` is six.
 
-  ### General Informations
+Input:
+```
+# Heading
+## Heading
+### Heading
+#### Heading
+##### Heading
+###### Heading
+```
 
-  `**bold1**`  &nbsp; &nbsp;  **bold1**  
-  `__bold2__`  &nbsp; &nbsp;  **bold2**  
-  `*italic1*`  &nbsp; &nbsp;  *italic1*  
-  `_italic2_`  &nbsp; &nbsp;  _italic2_  
-  `***bolditalic1***`  &nbsp; &nbsp;  ***bolditalic1***  
-  `___bolditalic2___`  &nbsp; &nbsp;  ___bolditalic2___  
-  `~~line~~`  &nbsp; &nbsp;  ~~line~~
+Output:  
+># Heading
+>## Heading
+>### Heading
+>#### Heading
+>##### Heading
+>###### Heading
 
-  ---
+## Link
+Input: 
+```
+[Link](https://google.com)
+```
+Output: &nbsp; [Link](https://google.com)
 
-  ### Link
-  Input: 
-  ```
-  [Link](http://)
-  ```
-  Output: &nbsp; [Link](http://)
+## Inline Code
+Input:
+```
+`code`
+```
+Output: &nbsp; `code`
 
-  ---
+## BlockCode
+Input:
+```
+```Java
+int a = 6;
+int b = 4;
+int result = a + b;
 
-  ### Inline Code
-  Input:
-  ```
-  `code`
-  ```
-  Output: &nbsp; `code`
+System.out.println("Result: " + result);```
+```
 
-  ---
+Output:  
+```Java
+int a = 6;
+int b = 4;
+int result = a + b;
 
-  ### Code
-  Input:
-  ```
-  ```Java
-  int a = 6;
-  int b = 4;
-  int result = a + b;
+System.out.println("Result: " + result);
+```
 
-  System.out.println("Result: " + result);
-  ``````
+## List Items
+Input:  
+```
+1. item  
+* item
+- item
++ item
+```
 
-  Output:  
-  ```Java
-  int a = 6;
-  int b = 4;
-  int result = a + b;
+Output:
+1. item  
+* item
+- item
++ item
 
-  System.out.println("Result: " + result);
-  ```
+## Blackquote
+Input:  
+`> item`
 
-  ---
+Output:  
+> item
 
-  ### List Items
-  Input:  
-  ```
-  1. item  
-  * item
-  - item
-  + item
-  ```
+## Table
+Input:
+```
+| Heading 1| Heading 2 | Heading 3 |
+| --- | --- | --- |
+| test| test| test|
+```
+Output:
+| Heading 1| Heading 2 | Heading 3 |
+| --- | --- | --- |
+| test| test| test|
 
-  Output:
-  * item
-  1. item  
-  - item
-  + item
+---
 
-  ---
+Input:
+```
+• Right alignment → | ---: | ---: | ---: |
+• Left alignment → | :--- | :--- | :--- |
+• Centered → |:---:|:---:|:---:|
+```
+Output:
+| Heading 1 | Heading 2 | Heading 3 |
+| :- | -: | :-: |
+| Left column | Center column | Right column|
+| Left alignment | Right alignment | Centered|
+| 100 | 100 | 100 |
+| 10.000 | 10.000 | 10.000|
+| 1.000.000 | 1.000.000 | 1.000.000 |
 
-  ### Blackquote
-  Input:  
-  `> item`
+## Image
+Input:  
+```
+[![image_name][image_url]][link_url]
 
-  Output:  
-  >item
+[image_url]: assets/coffee.png
 
-  ---
+[link_url]: https://mehmetcangulesci.com
+```
+Output:  
+[![image_name][image_url]][link_url]
 
-  ### Table
-  ```
-  | Heading 1| Heading 2 | Heading 3 |
-  | --- | --- | --- |
-  | test| test| test|
-  ```
-  | Heading 1| Heading 2 | Heading 3 |
-  | --- | --- | --- |
-  | test| test| test|
+[image_url]: assets/coffee.png
 
-  ```
-  • Right alignment → | ---: | ---: | ---: |
-  • Left alignment → | :--- | :--- | :--- |
-  • Centered → |:---:|:---:|:---:|
-  ```
-
-  | Heading 1 | Heading 2 | Heading 3 |
-  | :- | -: | :-: |
-  | Left column | Center column | Right column|
-  | Left alignment | Right alignment | Centered|
-  | 100 | 100 | 100 |
-  | 10.000 | 10.000 | 10.000|
-  | 1.000.000 | 1.000.000 | 1.000.000 |
-
-  ---
-
-  ### Image
-  Input:  
-  ```
-  [![image_name][image_url]][link_url]
-
-  [image_url]:https://mehmetcangulesci.com/wp-content/uploads/2017/04/micon-e1491410654235.png
-
-  [link_url]: https://mehmetcangulesci.com
-  ```
-  Output:  
-  [![image_name][image_url]][link_url]
-
-  [image_url]:https://mehmetcangulesci.com/wp-content/uploads/2017/03/micon.png
-
-  [link_url]: https://mehmetcangulesci.com
-
-  ---
-
-  ### Others
-  * Bir alt satıra geçmek için , satır sonunda 2 `SPACE` bırakılmalıdır.
-  * Satırda boşluk bırakmak için kelimelerin arasına `&nbsp;` koyabiliriz.
-  * 1 `ENTER` ile satırlar arasında boşluk bırakılır.
-  * Satırlar arasında çoklu boşluk bırakmak için `<br>` konulabilir.
-  
-  ---
-  
-## Contact me
-Follow me on [![alt text][1.1]][1]
-[![alt text][2.1]][2]
-[![alt text][3.1]][3]
-[![alt text][4.1]][4]
-[![alt text][5.1]][5]
+[link_url]: https://mehmetcangulesci.com
 
 
-[1.1]:https://mehmetcangulesci.com/wp-content/uploads/2017/03/Twitter.png (twitter icon with padding)
-[2.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Linkedin.png (linkedin icon with padding)
-[3.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Github.png (github icon with padding)
-[4.1]: https://mehmetcangulesci.com/wp-content/uploads/2017/03/Instagram.png (instagram icon with padding)
-[5.1]:https://mehmetcangulesci.com/wp-content/uploads/2017/03/micon.png
+## Additions
 
+`**bold1**`  &nbsp; &nbsp;  **bold1**  
+`__bold2__`  &nbsp; &nbsp;  **bold2**  
+`*italic1*`  &nbsp; &nbsp;  *italic1*  
+`_italic2_`  &nbsp; &nbsp;  _italic2_  
+`***bolditalic1***`  &nbsp; &nbsp;  ***bolditalic1***  
+`___bolditalic2___`  &nbsp; &nbsp;  ___bolditalic2___  
+`~~line~~`  &nbsp; &nbsp;  ~~line~~
 
-<!-- links to your social media accounts -->
-
-[1]: https://twitter.com/mehmetgulesci
-[2]: https://www.linkedin.com/in/mehmetcan-g%C3%BCle%C5%9F%C3%A7i-39155458/
-[3]: https://github.com/mgulesci
-[4]: https://www.instagram.com/mgulesci/
-[5]: https://mehmetcangulesci.com
+## Others
+* To leave space between words, use `&nbsp;`.
+* To jump new line, press `enter` key.
+* To leave more space between lines, use `<br>`.
